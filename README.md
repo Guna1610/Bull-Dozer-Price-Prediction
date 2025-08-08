@@ -1,30 +1,51 @@
-# Bulldozer Price Prediction (Kaggle)
+# 🚜 Bulldozer Price Prediction (Kaggle)
 
-This project builds an end-to-end machine learning pipeline to predict the sale price of used bulldozers using historical data from the Bluebook for Bulldozers Kaggle competition.
+This project builds an **end-to-end machine learning pipeline** to predict the **sale price of used bulldozers** using historical sales data from the *Bluebook for Bulldozers* Kaggle competition.  
+The workflow covers **data preprocessing, feature engineering, model training, evaluation, and insights extraction**.
 
-## 📊 Tools Used
-- Python, Pandas, Matplotlib, Scikit-learn
-- Jupyter Notebook
+---
 
 ## 🎯 Objective
-Predict bulldozer auction sale prices using historical features like sale date, machine age, usage type, etc.
+Predict bulldozer auction prices based on historical attributes such as:
+- **Sale date**
+- **Machine age**
+- **Usage type**
+- **Product class**
+- And other relevant features
+
+---
+
+## 📊 Tools & Technologies
+- **Languages/Libraries:** Python, Pandas, NumPy, Matplotlib, Scikit-learn  
+- **Environment:** Jupyter Notebook  
+
+---
+
+## 🧮 Dataset
+- **Source:** [Kaggle - Bluebook for Bulldozers](https://www.kaggle.com/competitions/bluebook-for-bulldozers)  
+- **Description:** Historical sales records of bulldozers including product specifications, usage, and sale prices.
+
+---
 
 ## 🏆 Evaluation Metric
-Root Mean Squared Log Error (RMSLE)
+- **Root Mean Squared Logarithmic Error (RMSLE)**
+- Achieved **Validation RMSLE ≈ 0.24**
 
-## 📈 Model
-Random Forest Regressor with validation RMSLE ≈ 0.24
+---
 
 ## 🧠 Key Techniques
-- Feature engineering from datetime
-- Handling missing values and categorical variables
-- Model training and tuning
-- Feature importance and error analysis
+- Extracted features from datetime columns  
+- Handled missing values and categorical encoding  
+- Implemented **Random Forest Regressor** for prediction  
+- Performed hyperparameter tuning for improved accuracy  
+- Analyzed feature importance and error distribution
 
-## 📁 Files
-- `end-to-end-bulldozer-price-regression.ipynb`: Main notebook
+---
 
-## 🚀 How to Run
-1. Install dependencies: `pip install -r requirements.txt`
-2. Open notebook: `jupyter notebook`
+## 📈 Model
+- **Algorithm:** Random Forest Regressor
+- **Performance:** RMSLE ≈ 0.24 on validation set
 
+---
+
+## 📂 Project Structure

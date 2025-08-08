@@ -48,4 +48,34 @@ Predict bulldozer auction prices based on historical attributes such as:
 
 ---
 
+## 📂 Project Structure
+├── data/ # Dataset files (if available)
+├── notebooks/ # Jupyter notebooks for analysis & modeling
+├── src/ # Python scripts (data processing, modeling)
+├── README.md # Project documentation
+└── requirements.txt # Required Python packages
+
+
+---
+
+## 🚀 How to Run
+```bash
+# Clone the repository
+git clone https://github.com/your-username/bulldozer-price-prediction.git
+cd bulldozer-price-prediction
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Open Jupyter Notebook
+jupyter notebook
+
+📌 Results & Insights
+Seasonal patterns observed in auction prices
+Machine age and usage type were top predictors of sale price
+Feature engineering significantly improved model accuracy
+
+📜 License
+This project is for educational purposes based on the Kaggle competition dataset.
+
 
